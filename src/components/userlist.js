@@ -39,6 +39,9 @@ export default class Userlist extends Component {
         data={this.state.data}
         warning={this.state.warning}
         ></Toolbar>
+        <Table
+        data={this.state.data}
+      ></Table>
           {this.state.data.length?'':noUsersInfo}
         </div>
       )
