@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Userlist from './components/userlist.js';
 
-class App extends Component {
+export default class App extends Component {
   render() {
     return (
       <div className="wrapper">
@@ -12,4 +12,4 @@ class App extends Component {
   }
 }
 
-export default App;
+

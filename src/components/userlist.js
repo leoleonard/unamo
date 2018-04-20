@@ -1,5 +1,7 @@
 import React, {Component} from "react";
-
+import Table from './table/table.js';
+import Toolbar from './toolbar/toolbar.js';
+import Header from './header/header.js';
 import _ from 'lodash';
 
 export default class Userlist extends Component {
@@ -32,14 +34,7 @@ export default class Userlist extends Component {
       const noUsersInfo = <span>No users</span>;
       return (
         <div className="userlist">
-          <Header/>
-          <Toolbar
-            data={this.state.data}
-            warning={this.state.warning}
-            updateData={this.updateData.bind(this)}
-          ></Toolbar>
-          <Table
-          ></Table>
+
           {this.state.data.length?'':noUsersInfo}
         </div>
       )
