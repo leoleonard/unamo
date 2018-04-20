@@ -10,7 +10,7 @@ export default class Userlist extends Component {
       this.state={
         data:'',
         sortby:'',
-        descending:false,
+        descending: false,
         warning:''
       }
     }
@@ -34,7 +34,11 @@ export default class Userlist extends Component {
       const noUsersInfo = <span>No users</span>;
       return (
         <div className="userlist">
-
+        <Header />
+        <Toolbar
+        data={this.state.data}
+        warning={this.state.warning}
+        ></Toolbar>
           {this.state.data.length?'':noUsersInfo}
         </div>
       )
