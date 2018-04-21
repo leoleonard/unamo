@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component} from 'react';
 import Table from './table/table.js';
 import Toolbar from './toolbar/toolbar.js';
 import Header from './header/header.js';
