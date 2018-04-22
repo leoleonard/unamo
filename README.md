@@ -1,5 +1,5 @@
 Users list
-- show all user list with an name and e-mail address
+- show all user list with name and e-mail address
 - delete existing users
 - add new users
 - check the input type
