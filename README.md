@@ -3,6 +3,6 @@ Users list
 - delete existing users
 - add new users
 - check the input type
-- max users on one page: 10
+- max number of users on the one page: 10
 
 https://leoleonard.github.io/unamo/
